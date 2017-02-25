@@ -1,33 +1,9 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+LIBS:C
+LIBS:P
+LIBS:R
+LIBS:U
+LIBS:RobotControl-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -42,4 +18,423 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L C_100n_100V_X7R_10%_SMD1206 C?
+U 1 1 58B1F8C7
+P 2150 1300
+F 0 "C?" H 2300 1400 50  0000 C CNN
+F 1 "C_100n_100V_X7R_10%_SMD1206" H 2150 1700 50  0001 C CNN
+F 2 "C:C_SMD1206" H 2150 1600 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/830839a87de5e04c10834451b6d63a94/CL31B104KCFNNNE-DTE.pdf" H 2150 1900 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/cl31b104kcfnnne/kondensatory-mlcc-smd-1206/samsung/" H 2150 1800 50  0001 C CNN "TME"
+F 5 "100n" H 2300 1200 50  0000 C CNN "Capacitance"
+F 6 "100V" H 2300 1100 50  0000 C CNN "Maximum voltage"
+F 7 "10%" H 2300 1000 50  0000 C CNN "Tolerance"
+	1    2150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_100n_100V_X7R_10%_SMD1206 C?
+U 1 1 58B1F960
+P 1850 1300
+F 0 "C?" H 2000 1400 50  0000 C CNN
+F 1 "C_100n_100V_X7R_10%_SMD1206" H 1850 1700 50  0001 C CNN
+F 2 "C:C_SMD1206" H 1850 1600 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/830839a87de5e04c10834451b6d63a94/CL31B104KCFNNNE-DTE.pdf" H 1850 1900 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/cl31b104kcfnnne/kondensatory-mlcc-smd-1206/samsung/" H 1850 1800 50  0001 C CNN "TME"
+F 5 "100n" H 2000 1200 50  0000 C CNN "Capacitance"
+F 6 "100V" H 2000 1100 50  0000 C CNN "Maximum voltage"
+F 7 "10%" H 2000 1000 50  0000 C CNN "Tolerance"
+	1    1850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_100n_100V_X7R_10%_SMD1206 C?
+U 1 1 58B1FA68
+P 1550 1300
+F 0 "C?" H 1700 1400 50  0000 C CNN
+F 1 "C_100n_100V_X7R_10%_SMD1206" H 1550 1700 50  0001 C CNN
+F 2 "C:C_SMD1206" H 1550 1600 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/830839a87de5e04c10834451b6d63a94/CL31B104KCFNNNE-DTE.pdf" H 1550 1900 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/cl31b104kcfnnne/kondensatory-mlcc-smd-1206/samsung/" H 1550 1800 50  0001 C CNN "TME"
+F 5 "100n" H 1700 1200 50  0000 C CNN "Capacitance"
+F 6 "100V" H 1700 1100 50  0000 C CNN "Maximum voltage"
+F 7 "10%" H 1700 1000 50  0000 C CNN "Tolerance"
+	1    1550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_100n_100V_X7R_10%_SMD1206 C?
+U 1 1 58B1FA97
+P 1250 1300
+F 0 "C?" H 1400 1400 50  0000 C CNN
+F 1 "C_100n_100V_X7R_10%_SMD1206" H 1250 1700 50  0001 C CNN
+F 2 "C:C_SMD1206" H 1250 1600 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/830839a87de5e04c10834451b6d63a94/CL31B104KCFNNNE-DTE.pdf" H 1250 1900 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/cl31b104kcfnnne/kondensatory-mlcc-smd-1206/samsung/" H 1250 1800 50  0001 C CNN "TME"
+F 5 "100n" H 1400 1200 50  0000 C CNN "Capacitance"
+F 6 "100V" H 1400 1100 50  0000 C CNN "Maximum voltage"
+F 7 "10%" H 1400 1000 50  0000 C CNN "Tolerance"
+	1    1250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F030CCT6 U?
+U 1 1 58B204E3
+P 4400 2850
+F 0 "U?" H 3150 4700 60  0000 C CNN
+F 1 "STM32F030CCT6" H 5400 4700 60  0000 C CNN
+F 2 "U:U_LQPF48" H 4400 850 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/21f84f80c90f51ef225b72aa8602e29a/STM32F030C8T6.pdf" H 4400 4950 50  0001 C CNN
+F 4 "256KB" H 4350 4700 50  0000 C CNN "Flash"
+F 5 "32KB" H 4650 4700 50  0000 C CNN "SRAM"
+F 6 "48MHz" H 4000 4700 50  0000 C CNN "Maximum frequency"
+F 7 "http://www.tme.eu/pl/details/stm32f030cct6/mikrokontrolery-st/st-microelectronics/" H 4400 5100 50  0001 C CNN "TME"
+	1    4400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B1FDF5
+P 1250 1500
+F 0 "#PWR?" H 1250 1250 50  0001 C CNN
+F 1 "GND" H 1250 1350 50  0001 C CNN
+F 2 "" H 1250 1500 50  0000 C CNN
+F 3 "" H 1250 1500 50  0000 C CNN
+	1    1250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B1FE49
+P 1550 1500
+F 0 "#PWR?" H 1550 1250 50  0001 C CNN
+F 1 "GND" H 1550 1350 50  0001 C CNN
+F 2 "" H 1550 1500 50  0000 C CNN
+F 3 "" H 1550 1500 50  0000 C CNN
+	1    1550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B1FE66
+P 1850 1500
+F 0 "#PWR?" H 1850 1250 50  0001 C CNN
+F 1 "GND" H 1850 1350 50  0001 C CNN
+F 2 "" H 1850 1500 50  0000 C CNN
+F 3 "" H 1850 1500 50  0000 C CNN
+	1    1850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B1FE83
+P 2150 1500
+F 0 "#PWR?" H 2150 1250 50  0001 C CNN
+F 1 "GND" H 2150 1350 50  0001 C CNN
+F 2 "" H 2150 1500 50  0000 C CNN
+F 3 "" H 2150 1500 50  0000 C CNN
+	1    2150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B1FF36
+P 2750 2050
+F 0 "#PWR?" H 2750 1800 50  0001 C CNN
+F 1 "GND" H 2750 1900 50  0001 C CNN
+F 2 "" H 2750 2050 50  0000 C CNN
+F 3 "" H 2750 2050 50  0000 C CNN
+	1    2750 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 1100
+Wire Wire Line
+	1550 1150 1550 1100
+Connection ~ 1550 1100
+Wire Wire Line
+	1850 1150 1850 1100
+Connection ~ 1850 1100
+Wire Wire Line
+	2150 1150 2150 1100
+Connection ~ 2150 1100
+Wire Wire Line
+	1250 1450 1250 1500
+Wire Wire Line
+	1550 1450 1550 1500
+Wire Wire Line
+	1850 1450 1850 1500
+Wire Wire Line
+	2150 1450 2150 1500
+Wire Wire Line
+	2750 1800 2750 2050
+Wire Wire Line
+	2750 2000 2800 2000
+Wire Wire Line
+	2750 1900 2800 1900
+Connection ~ 2750 2000
+Wire Wire Line
+	2750 1800 2800 1800
+Connection ~ 2750 1900
+$Comp
+L GND #PWR?
+U 1 1 58B20042
+P 2750 2750
+F 0 "#PWR?" H 2750 2500 50  0001 C CNN
+F 1 "GND" H 2750 2600 50  0001 C CNN
+F 2 "" H 2750 2750 50  0000 C CNN
+F 3 "" H 2750 2750 50  0000 C CNN
+	1    2750 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2750 2750 2700
+Wire Wire Line
+	2750 2700 2800 2700
+Wire Wire Line
+	2750 1100 2750 1400
+Wire Wire Line
+	2750 1400 2800 1400
+Connection ~ 2750 1100
+Wire Wire Line
+	2800 1300 2750 1300
+Connection ~ 2750 1300
+Wire Wire Line
+	2800 1200 2750 1200
+Connection ~ 2750 1200
+$Comp
+L +3.3V #PWR?
+U 1 1 58B20470
+P 950 1050
+F 0 "#PWR?" H 950 900 50  0001 C CNN
+F 1 "+3.3V" H 950 1200 50  0000 C CNN
+F 2 "" H 950 1050 50  0000 C CNN
+F 3 "" H 950 1050 50  0000 C CNN
+	1    950  1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 58B20494
+P 2250 2250
+F 0 "#PWR?" H 2250 2100 50  0001 C CNN
+F 1 "+3.3V" H 2250 2400 50  0000 C CNN
+F 2 "" H 2250 2250 50  0000 C CNN
+F 3 "" H 2250 2250 50  0000 C CNN
+	1    2250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_10u_25V_X5R_10%_SMD1206 C?
+U 1 1 58B205CD
+P 950 1300
+F 0 "C?" H 1100 1400 50  0000 C CNN
+F 1 "C_10u_25V_X5R_10%_SMD1206" H 950 1700 50  0001 C CNN
+F 2 "C:C_SMD1206" H 950 1600 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/4a42202b32dab16128fe107dd69598cc/samsung-chip-cap.pdf" H 950 1900 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/cl31a106kahnnne/kondensatory-mlcc-smd-1206/samsung/" H 950 1800 50  0001 C CNN "TME"
+F 5 "10u" H 1100 1200 50  0000 C CNN "Capacitance"
+F 6 "25V" H 1100 1100 50  0000 C CNN "Maximum voltage"
+F 7 "10%" H 1100 1000 50  0000 C CNN "Tolerance"
+	1    950  1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B206B1
+P 950 1500
+F 0 "#PWR?" H 950 1250 50  0001 C CNN
+F 1 "GND" H 950 1350 50  0001 C CNN
+F 2 "" H 950 1500 50  0000 C CNN
+F 3 "" H 950 1500 50  0000 C CNN
+	1    950  1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1500 950  1450
+Wire Wire Line
+	950  1050 950  1150
+Wire Wire Line
+	950  1100 2800 1100
+Wire Wire Line
+	1250 1150 1250 1100
+Connection ~ 950  1100
+$Comp
+L MCP1700T-3302E/TT U?
+U 1 1 58B21303
+P 8750 1150
+F 0 "U?" H 8900 1000 50  0000 C CNN
+F 1 "MCP1700T-3302E/TT" H 8800 1350 50  0000 C CNN
+F 2 "" H 8650 1450 60  0000 C CNN
+F 3 "http://www.tme.eu/pl/Document/952a4cca9caea28f850f0bc3e82de190/MCP1700-3002ETO.pdf" H 8750 1700 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/mcp1700t3302ett/stabilizatory-napiecia-nieregulowane-ldo/microchip-technology/mcp1700t-3302ett/" H 8850 1600 50  0001 C CNN "TME"
+F 5 "250mA" H 8500 1000 50  0000 C CNN "Maximum current"
+F 6 "3.3V" H 8450 900 50  0000 C CNN "Output voltage"
+F 7 "300mV" H 8500 800 50  0001 C CNN "Dropout"
+	1    8750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_10u_25V_X5R_10%_SMD1206 C?
+U 1 1 58B215C1
+P 7800 1250
+F 0 "C?" H 7950 1350 50  0000 C CNN
+F 1 "C_10u_25V_X5R_10%_SMD1206" H 7800 1650 50  0001 C CNN
+F 2 "C:C_SMD1206" H 7800 1550 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/4a42202b32dab16128fe107dd69598cc/samsung-chip-cap.pdf" H 7800 1850 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/cl31a106kahnnne/kondensatory-mlcc-smd-1206/samsung/" H 7800 1750 50  0001 C CNN "TME"
+F 5 "10u" H 7950 1150 50  0000 C CNN "Capacitance"
+F 6 "25V" H 7950 1050 50  0000 C CNN "Maximum voltage"
+F 7 "10%" H 7950 950 50  0000 C CNN "Tolerance"
+	1    7800 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_100n_100V_X7R_10%_SMD1206 C?
+U 1 1 58B2163B
+P 8050 1250
+F 0 "C?" H 8200 1350 50  0000 C CNN
+F 1 "C_100n_100V_X7R_10%_SMD1206" H 8050 1650 50  0001 C CNN
+F 2 "C:C_SMD1206" H 8050 1550 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/830839a87de5e04c10834451b6d63a94/CL31B104KCFNNNE-DTE.pdf" H 8050 1850 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/cl31b104kcfnnne/kondensatory-mlcc-smd-1206/samsung/" H 8050 1750 50  0001 C CNN "TME"
+F 5 "100n" H 8200 1150 50  0000 C CNN "Capacitance"
+F 6 "100V" H 8200 1050 50  0000 C CNN "Maximum voltage"
+F 7 "10%" H 8200 950 50  0000 C CNN "Tolerance"
+	1    8050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_10u_25V_X5R_10%_SMD1206 C?
+U 1 1 58B216C7
+P 9100 1250
+F 0 "C?" H 9250 1350 50  0000 C CNN
+F 1 "C_10u_25V_X5R_10%_SMD1206" H 9100 1650 50  0001 C CNN
+F 2 "C:C_SMD1206" H 9100 1550 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/4a42202b32dab16128fe107dd69598cc/samsung-chip-cap.pdf" H 9100 1850 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/cl31a106kahnnne/kondensatory-mlcc-smd-1206/samsung/" H 9100 1750 50  0001 C CNN "TME"
+F 5 "10u" H 9250 1150 50  0000 C CNN "Capacitance"
+F 6 "25V" H 9250 1050 50  0000 C CNN "Maximum voltage"
+F 7 "10%" H 9250 950 50  0000 C CNN "Tolerance"
+	1    9100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_100n_100V_X7R_10%_SMD1206 C?
+U 1 1 58B21725
+P 9350 1250
+F 0 "C?" H 9500 1350 50  0000 C CNN
+F 1 "C_100n_100V_X7R_10%_SMD1206" H 9350 1650 50  0001 C CNN
+F 2 "C:C_SMD1206" H 9350 1550 50  0001 C CNN
+F 3 "http://www.tme.eu/pl/Document/830839a87de5e04c10834451b6d63a94/CL31B104KCFNNNE-DTE.pdf" H 9350 1850 50  0001 C CNN
+F 4 "http://www.tme.eu/pl/details/cl31b104kcfnnne/kondensatory-mlcc-smd-1206/samsung/" H 9350 1750 50  0001 C CNN "TME"
+F 5 "100n" H 9500 1150 50  0000 C CNN "Capacitance"
+F 6 "100V" H 9500 1050 50  0000 C CNN "Maximum voltage"
+F 7 "10%" H 9500 950 50  0000 C CNN "Tolerance"
+	1    9350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B217C3
+P 8750 1400
+F 0 "#PWR?" H 8750 1150 50  0001 C CNN
+F 1 "GND" H 8750 1250 50  0001 C CNN
+F 2 "" H 8750 1400 50  0000 C CNN
+F 3 "" H 8750 1400 50  0000 C CNN
+	1    8750 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1400 8750 1350
+$Comp
+L GND #PWR?
+U 1 1 58B21822
+P 8050 1450
+F 0 "#PWR?" H 8050 1200 50  0001 C CNN
+F 1 "GND" H 8050 1300 50  0001 C CNN
+F 2 "" H 8050 1450 50  0000 C CNN
+F 3 "" H 8050 1450 50  0000 C CNN
+	1    8050 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 1450 8050 1400
+$Comp
+L GND #PWR?
+U 1 1 58B2187B
+P 7800 1450
+F 0 "#PWR?" H 7800 1200 50  0001 C CNN
+F 1 "GND" H 7800 1300 50  0001 C CNN
+F 2 "" H 7800 1450 50  0000 C CNN
+F 3 "" H 7800 1450 50  0000 C CNN
+	1    7800 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1450 7800 1400
+Wire Wire Line
+	7800 1050 8450 1050
+Wire Wire Line
+	8050 1050 8050 1100
+Wire Wire Line
+	7800 1000 7800 1100
+Connection ~ 8050 1050
+Connection ~ 7800 1050
+$Comp
+L VBAT #PWR?
+U 1 1 58B21977
+P 7800 1000
+F 0 "#PWR?" H 7800 850 50  0001 C CNN
+F 1 "VBAT" H 7800 1150 50  0000 C CNN
+F 2 "" H 7800 1000 50  0000 C CNN
+F 3 "" H 7800 1000 50  0000 C CNN
+	1    7800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B21C71
+P 9100 1450
+F 0 "#PWR?" H 9100 1200 50  0001 C CNN
+F 1 "GND" H 9100 1300 50  0001 C CNN
+F 2 "" H 9100 1450 50  0000 C CNN
+F 3 "" H 9100 1450 50  0000 C CNN
+	1    9100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B21C9D
+P 9350 1450
+F 0 "#PWR?" H 9350 1200 50  0001 C CNN
+F 1 "GND" H 9350 1300 50  0001 C CNN
+F 2 "" H 9350 1450 50  0000 C CNN
+F 3 "" H 9350 1450 50  0000 C CNN
+	1    9350 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1450 9350 1400
+Wire Wire Line
+	9100 1450 9100 1400
+Wire Wire Line
+	9050 1050 9350 1050
+Wire Wire Line
+	9100 1050 9100 1100
+Wire Wire Line
+	9350 1000 9350 1100
+Connection ~ 9100 1050
+Connection ~ 9350 1050
+$Comp
+L +3.3V #PWR?
+U 1 1 58B21DEA
+P 9350 1000
+F 0 "#PWR?" H 9350 850 50  0001 C CNN
+F 1 "+3.3V" H 9350 1150 50  0000 C CNN
+F 2 "" H 9350 1000 50  0000 C CNN
+F 3 "" H 9350 1000 50  0000 C CNN
+	1    9350 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
